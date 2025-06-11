@@ -114,7 +114,7 @@ def tiktok_command(update: Update, context: CallbackContext):
     update.message.reply_text(response)
 
 def main():
-    TOKEN = "ВАШ_ТОКЕН_БОТА"  # Заменить на токен от @BotFather
+    TOKEN = "7946251650:AAG0DvWmRYV5VBeZdWlxoaytN90PwVDYk34"  # Заменить на токен от @BotFather
     updater = Updater(TOKEN)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("tiktok", tiktok_command, pass_args=True))
